@@ -1,0 +1,500 @@
+/*
+Theme Name: CBUS DS 
+Theme URI: http://www.cbusmultimedia.com
+Version: 0.1.0
+Description: A basic theme used to digital signage
+Author: Pika
+Author URI: http://www.cbusmultimedia.com
+License: GPLv2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+/*
+1,920 x 1,080 
+1,280 x 720
+*/
+html, body {
+	height:100%;
+}
+body{
+}
+#content-wrapper {
+	height:100%;
+	padding:0;
+	background: red;
+}
+	#content-header {
+		background: #14B946;
+		height:10%;
+	}
+		#content-header div{
+			height:100%;
+		}
+			#world_clock_widget {
+				background: #8EC743;
+				padding-top: 10px !important;
+			}
+			#logo img{
+				abackground:purple;
+				height:100%;
+			}
+			
+
+	#content-body {
+		background: #ececec;
+		height: 80% !important;
+	}
+		#left-body, #right-body {
+			height: 100%;
+		}
+			#video-area {
+				background: #000000;
+				text-align:center;
+				height:68%;
+				margin:1%;
+			}
+				#video-area iframe {
+					height:100%;
+				}
+			#socmed-area {
+				height: 28%;
+				background:#1DA1F2;
+				padding:0;
+				margin:1%;
+			}
+				#socmed-area h3 {
+					height:20%;
+					margin:0;
+					color:#ffffff;
+					padding-left:2%;
+				}
+				#socmed-area p{
+					margin:0;
+				}
+				#socmed-area div.w3-row {
+					height:40%;
+					background:#F5F8FA;
+					border-radius: 0 0 4px 4px;
+				}
+				#socmed-area div.first  {
+					border-bottom:1px solid #A6B3BE;
+					border-radius: 0;
+				}
+					#socmed-area div.w3-col {
+						height:100%;
+						background:#ffffff;
+						padding:5px;;
+					}
+					#socmed-area div.w3-col:first-child {
+						text-align:center;
+						background:#eeeeee;
+					}
+						#socmed-area img.prof-pict {
+							height:70%;
+						}
+						#socmed-area p.userid {
+							height:30%;
+							font-size:.7em;
+							font-style:italic;
+							font-weight:bold;
+							color: #1DA1F2;
+						}
+						#socmed-area p.created {
+							height:20%;
+							font-size:.8em;
+							color:#A6B3BE;
+						}
+						#socmed-area p.comment {
+							height:80%;
+							font-size:.9em;
+							margin-top:5px;
+						}
+						#socmed-area p span {
+							color: #1DA1F2;
+							font-weight:bold;
+						}
+		
+		#right-body {
+
+		}
+			#widget-2 {
+				height: 35%;
+				background:#ff4500;
+				margin-bottom:10px;
+				margin-right:10px;
+			}	
+				#widget-2 h3 {
+					height: 10%;
+					font-size:1.3em;
+					padding-left:3%;
+					color:#ffffff;
+				}
+				#widget-2 div  {
+					height:80%;
+					abackground:blue;
+				}
+					#widget-2 div div:first-child {
+						height:100%;
+					}
+					#widget-2 div div:first-child div{
+						abackground:honeydew;
+						height:0%;
+					}
+
+				#widget-3 {
+					height: 34%;
+					background:#FFFFAA;
+					margin-right:10px;
+					margin-bottom:10px;
+				}
+						#apixu-widget {
+							height:100% ;
+							padding:0;
+						}
+							#apixu-top {
+								height: 50%;
+							}
+								#apixu-top div {
+									height:100%;
+									background:#FFFFD4;
+									border-radius:4px 4px 0 0;
+								}
+								#apixu-top div div {
+									padding:0;
+									text-align:center;
+								}
+									#apixu-top div:first-child div:first-child {
+										height:75%;
+									}
+										#apixu-top div:first-child div:first-child img{
+											abackground:wheat;
+											height:100%;
+										}
+									#apixu-top div:first-child div:nth-child(2) {
+										abackground:wheat;
+										height:25%;
+									}
+										#apixu-top div:first-child div:nth-child(2) p{
+											margin:0;
+											color:#888888;
+											font-size:.9em;
+										}
+									#apixu-top div:nth-child(2) div:first-child {
+										abackground:wheat;
+										height:20%;
+									}
+										#apixu-top div:nth-child(2) div:first-child {
+											abackground:blue;
+											text-align:left;
+											font-weight:bold;
+											color: #909090;
+										}
+									#apixu-top div:nth-child(2) div:nth-child(2) {
+										abackground:wheat;
+										height:80%;
+									}
+										#apixu-top div:nth-child(2) div:nth-child(2) p{
+											margin:0;
+											padding:0;
+											font-size:3em;
+											font-weight:bold;
+										}
+								
+							#apixu-middle {
+								height: 40% ;
+								abackground:orange;
+							}
+								#apixu-middle p {
+									margin:0;
+								}
+								#apixu-middle div.w3-col {
+									height:100%;
+								}
+								#apixu-middle div.w3-col div.w3-container {
+									abackground:red;
+									padding:0;
+									margin:0;
+									text-align:center;
+								}
+								#apixu-middle div.w3-col div {
+									height:50%;
+								}
+									#apixu-middle div.w3-col div:nth-child(2) div{
+										height:100%;
+									}
+									#apixu-middle div div:nth-child(2) img{
+										height:100%;
+									}
+								#apixu-middle div.w3-col div:first-child {
+									height:25%;
+								}
+								#apixu-middle div.w3-col div:last-child {
+									height:25%;
+								}
+								
+							#apixu-bottom {
+								height: 10% ;
+								text-align:right;
+								font-size:10px;
+								abackground:brown;
+							}
+				#widget-4 {
+					background:#ffffff;
+					height:25%;
+					margin-right:10px;
+				}
+					#widget-4 div {
+						height:100%;
+						padding:0;
+					}
+						#widget-4 div h3 {
+							margin:0;
+							background:#f00;
+							padding-left:2%;
+							border-radius:4px 4px 0 0;
+							color:#ffffff;
+						}
+						#widget-4 div p {
+							margin:0;
+							padding:10px;
+						}
+
+	#content-footer {
+		background: #fff000;
+		height:10%;
+	}
+		#content-footer p{
+			font-size:1.7em;
+			padding:1%;
+			margin:0;
+		}
+	/*
+			#video-area {
+				height:60%;
+				abackground:red;
+				background:#000;
+			}
+				#video-area div {
+					height:100%;
+					padding:0;
+				}
+
+					#video-area div iframe {
+						height:100%;
+						abackground:blue;
+					}
+			#socmed-area{
+				height:28%;
+				background:#eeeeee;
+				margin:1% 0;
+			}
+				#socmed-area h3 {
+					margin:0;
+					height:20%;
+					background:#1DA1F2;
+					color:#fff;
+				}
+				#socmed-area div {
+					height:40%;
+					abackground:green;
+				}
+					#socmed-area div span {
+						color:#1DA1F2;
+					}
+				#socmed-area div.w3-row:nth-child(2) {
+					abackground:red;
+					border-bottom:1px solid #A6B3BE;
+				}
+				#socmed-area div.w3-row:nth-child(3) {}
+					#socmed-area div div {
+						height:100%;
+						abackground:yellow;
+						margin:0 !important;
+						padding:0 !important;
+					}
+						#socmed-area div.socmed-profile, #socmed-area div.socmed-timeline {
+							height:100%;
+							abackground:purple;
+							text-align:center;
+							padding:8px 16px !important;
+						}
+							#socmed-area div.socmed-profile p {
+								padding:0;
+								margin:0;
+								font-size:.8em;
+								abackground:orange;
+								color:#4358E2;
+								font-weight:bold;
+								font-style:italic;
+							}
+							#socmed-area div.socmed-timeline p {
+								padding:0;
+								margin:0;
+								text-align:left;
+								abackground:aqua;
+								font-size: .9em;
+							}
+							#socmed-area p.socmed-created {
+								abackground:blue;
+								font-size:.8em;
+								color:#A6B3BE;
+								font-style:italic;
+							}
+
+			#widget-1 {
+				height: 10%;
+			}
+				#widget-1 div {
+					height:100%;
+				}
+
+			#widget-2 {
+				height: 30%;
+			}
+				#widget-2 div {
+					height:100%;
+				}	
+					#widget-2 div p {
+						height: 20%;
+						margin:0;
+						font-size:20px;
+					}
+					#widget-2 div div {
+						height:80% !important;
+						background:white;
+					}
+						#widget-2 div div div {
+							height:0 !important;
+						}
+
+			#widget-3 {
+				height: 40%;
+			}
+				#widget-3 div {
+					height:100%;
+				}
+					#apixu-widget {
+						height:100% !important;
+					}
+						#apixu-top {
+							height: 50% !important;
+						}
+							#apixu-top div:first-child div:first-child {
+								height:80%;
+								text-align:center;
+								padding:0;
+							}
+								#apixu-top div:first-child div:first-child img{
+									margin:0 !important;
+									height:100%;
+								}
+							#apixu-top div:first-child div:nth-child(2) {
+								height:20%;
+							}
+								#apixu-top div:first-child div:nth-child(2) p{
+									height:100%;
+									margin:0;
+									padding:0;
+									font-size:13px;
+								}
+							#apixu-top div:nth-child(2) div:first-child {
+								height:20%;
+								text-align:center;
+								padding:0;
+							}
+								#apixu-top div:nth-child(2) div:first-child img{
+									margin:0 !important;
+									height:100%;
+								}
+							#apixu-top div:nth-child(2) div:nth-child(2) {
+								height:80%;
+							}
+								#apixu-top div:nth-child(2) div:nth-child(2) p{
+									height:100%;
+									amargin:0;
+									padding:0;
+									font-size:32px;
+								}
+						#apixu-middle {
+							height: 40% !important;
+						}
+							#apixu-middle div div:first-child {
+								height:20%;
+								text-align:center;
+							}
+								#apixu-middle div div:first-child p{
+									margin:0 !important;
+									height:100%;
+									font-size:13x;
+								}
+							#apixu-middle div div:nth-child(2){
+								height:60%;
+							}
+								#apixu-middle div div:nth-child(2) div{
+									height:100%;
+									text-align:center;
+									padding:0;
+								}
+									#apixu-middle div div:nth-child(2) div img{
+										height:100%;
+									}
+							#apixu-middle div div:nth-child(3) {
+								height:20%;
+								text-align:center;
+							}
+								#apixu-middle div:first-child div:nth-child(3) p{
+									height:100%;
+									margin:0;
+									padding:0;
+									font-size:13px;
+								}
+						#apixu-bottom {
+							height: 10% !important;
+							text-align:right;
+							font-size:10px;
+						}
+
+			#widget-4 {
+				height: 20%;
+			}
+				#widget-4 div {
+					height:100%;
+				}
+					#widget-4 div h1 {
+						margin:0;
+						height:20%;
+						font-size:1.2em;
+						font-weight:bold;
+					}
+
+					#widget-4 div p {
+						height:80%;
+						margin:0;
+					}
+					#widget-4 div p.hide_it {
+						display: none;
+					}
+
+	#footer {
+		height:10%;
+	}*/
+
+/* 1,360 x 720 */
+@media screen and (min-height: 1360px) {
+	body{
+	}
+	
+}
+
+/* 1366 x 768 */
+@media screen and (min-width: 1366px) {
+	body{
+	}
+	
+}
+
+/* 1,920 x 1,080  */
+@media screen and (min-width: 1920px) {
+	body{
+	}
+	
+}
